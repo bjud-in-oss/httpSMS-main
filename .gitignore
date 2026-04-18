@@ -1,0 +1,13 @@
+.idea
+.env*
+!.env.docker
+!.env.production
+*serviceAccountKey.json
+android/app/debug/
+*main.exe*
+android/app/release/
+.secret.local
+*.local
+firebase-debug.log
+.runtimeconfig.json
+env-vars.yaml
