@@ -15,7 +15,8 @@ RUN pnpm install
 COPY . .
 
 # Set API_BASE_URL for Nuxt generate
-ENV API_BASE_URL=https://httpsms-api-ykmdb4to7q-ew.a.run.app
+ARG API_BASE_URL
+ENV API_BASE_URL=$API_BASE_URL
 
 # Generate static files
 RUN pnpm run generate

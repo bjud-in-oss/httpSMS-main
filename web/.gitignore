@@ -1,3 +1,15 @@
+# Säkerhet: Ignorera alla miljövariabler och hemligheter
+.env
+.env.*
+env-vars.yaml
+*.pem
+*.key
+
+# Ignorera mappar som genereras automatiskt (sparar plats)
+node_modules/
+.nuxt/
+dist/
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs

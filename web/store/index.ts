@@ -112,7 +112,8 @@ export const getters = {
   },
 
   getAppData(): AppData {
-    let url = process.env.APP_URL as string
+    //let url = process.env.APP_URL as string
+    let url = "https://httpsmswebhook-436444787779.europe-west1.run.app"
     if (url.length > 0 && url[url.length - 1] === '/') {
       url = url.substring(0, url.length - 1)
     }

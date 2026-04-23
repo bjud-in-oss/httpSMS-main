@@ -152,7 +152,16 @@ export default {
   },
 
   publicRuntimeConfig: {
+    // 1. Fixen för Axios (webbläsaren)
+    axios: {
+      ///browserBaseURL: process.env.API_BASE_URL || 'https://httpsmswebhook-436444787779.europe-west1.run.app'
+      browserBaseURL: process.env.API_BASE_URL
+    },
+    // 2. Fallback för direktanrop i koden
     API_BASE_URL: process.env.API_BASE_URL,
+    //API_BASE_URL: process.env.API_BASE_URL || 'https://httpsmswebhook-436444787779.europe-west1.run.app',
+
+    // 3. Behåll originalfälten för att undvika följdfel
     GITHUB_SHA: process.env.GITHUB_SHA,
     checkoutURL: process.env.CHECKOUT_URL,
     enterpriseCheckoutURL: process.env.ENTERPRISE_CHECKOUT_URL,
@@ -167,7 +176,8 @@ export default {
   },
 
   env: {
-    API_BASE_URL: process.env.API_BASE_URL,
+    //API_BASE_URL: process.env.API_BASE_URL,
+    API_BASE_URL: 'https://httpsmswebhook-436444787779.europe-west1.run.app',
     GITHUB_SHA: process.env.GITHUB_SHA,
     APP_URL: process.env.APP_URL,
     APP_NAME: process.env.APP_NAME,
