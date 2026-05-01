@@ -30,8 +30,8 @@ importers:
         specifier: ^3.48.0
         version: 3.48.0
       date-fns:
-        specifier: ^2.30.0
-        version: 2.30.0
+        specifier: ^4.1.0
+        version: 4.1.0
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
@@ -119,10 +119,10 @@ importers:
         version: 12.1.0(eslint@8.57.1)(typescript@4.9.5)
       '@nuxtjs/eslint-module':
         specifier: ^4.1.0
-        version: 4.1.0(eslint@8.57.1)(rollup@3.29.5)(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)
+        version: 4.1.0(eslint@8.57.1)(rollup@3.30.0)(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)
       '@nuxtjs/stylelint-module':
         specifier: ^5.2.0
-        version: 5.2.0(postcss@8.5.6)(rollup@3.29.5)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)
+        version: 5.2.0(postcss@8.5.6)(rollup@3.30.0)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)
       '@nuxtjs/vuetify':
         specifier: ^1.12.3
         version: 1.12.3(vue@2.7.16)(webpack@5.104.1)
@@ -968,10 +968,6 @@ packages:
 
   '@babel/regjsgen@0.8.0':
     resolution: {integrity: sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==}
-
-  '@babel/runtime@7.24.5':
-    resolution: {integrity: sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.24.7':
     resolution: {integrity: sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==}
@@ -3151,6 +3147,9 @@ packages:
   brace-expansion@2.0.2:
     resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
 
+  brace-expansion@2.1.0:
+    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==}
+
   braces@2.3.2:
     resolution: {integrity: sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==}
     engines: {node: '>=0.10.0'}
@@ -3948,9 +3947,8 @@ packages:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
     engines: {node: '>=18'}
 
-  date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
@@ -4676,8 +4674,8 @@ packages:
   file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
 
-  filelist@1.0.4:
-    resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==}
+  filelist@1.0.6:
+    resolution: {integrity: sha512-5giy2PkLYY1cP39p17Ech+2xlpTRL9HLspOfEgm0L6CwBXBTgsK5ou0JtzYuepxkaQ/tvhCFIJ5uXo0OrM2DxA==}
 
   fill-range@4.0.0:
     resolution: {integrity: sha512-VcpLTWqWDiTerugjj8e3+esbg+skS3M9e54UuR3iCeIDMXCLTsAH8hTSzDQU/X6/6t3eYkOKoZSef2PlU6U1XQ==}
@@ -4925,6 +4923,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@7.0.0:
@@ -6252,6 +6251,10 @@ packages:
     resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
     engines: {node: '>=10'}
 
+  minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
+    engines: {node: '>=10'}
+
   minimatch@9.0.1:
     resolution: {integrity: sha512-0jWhJpD/MdhPXwPuiRkCbfYfSKp2qnn2eOc279qI7f+osl/l+prKSrvhg157zSYvx/1nmgn2NqdT6k2Z7zSH9w==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -6362,6 +6365,11 @@ packages:
 
   nanoid@3.3.11:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  nanoid@3.3.12:
+    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -7351,6 +7359,10 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.13:
+    resolution: {integrity: sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==}
+    engines: {node: ^10 || ^12 || >=14}
+
   postcss@8.5.6:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -7694,8 +7706,8 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
 
-  rollup@3.29.5:
-    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
+  rollup@3.30.0:
+    resolution: {integrity: sha512-kQvGasUgN+AlWGliFn2POSajRQEsULVYFGTvOZmK06d7vCD+YhZztt70kGk3qaeAXeWYL5eO7zx+rAubBc55eA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -8721,6 +8733,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   v8-to-istanbul@9.3.0:
@@ -10248,10 +10261,6 @@ snapshots:
       esutils: 2.0.3
 
   '@babel/regjsgen@0.8.0': {}
-
-  '@babel/runtime@7.24.5':
-    dependencies:
-      regenerator-runtime: 0.14.1
 
   '@babel/runtime@7.24.7':
     dependencies:
@@ -11783,9 +11792,9 @@ snapshots:
       node-html-parser: 6.1.13
       ufo: 1.6.1
 
-  '@nuxt/kit@3.12.2(rollup@3.29.5)':
+  '@nuxt/kit@3.12.2(rollup@3.30.0)':
     dependencies:
-      '@nuxt/schema': 3.12.2(rollup@3.29.5)
+      '@nuxt/schema': 3.12.2(rollup@3.30.0)
       c12: 1.11.1
       consola: 3.2.3
       defu: 6.1.4
@@ -11803,16 +11812,16 @@ snapshots:
       semver: 7.7.3
       ufo: 1.6.1
       unctx: 2.3.1
-      unimport: 3.7.2(rollup@3.29.5)
+      unimport: 3.7.2(rollup@3.30.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - magicast
       - rollup
       - supports-color
 
-  '@nuxt/kit@3.7.4(rollup@3.29.5)':
+  '@nuxt/kit@3.7.4(rollup@3.30.0)':
     dependencies:
-      '@nuxt/schema': 3.7.4(rollup@3.29.5)
+      '@nuxt/schema': 3.7.4(rollup@3.30.0)
       c12: 1.4.2
       consola: 3.2.3
       defu: 6.1.4
@@ -11828,7 +11837,7 @@ snapshots:
       semver: 7.7.3
       ufo: 1.6.1
       unctx: 2.3.1
-      unimport: 3.4.0(rollup@3.29.5)
+      unimport: 3.4.0(rollup@3.30.0)
       untyped: 1.4.0
     transitivePeerDependencies:
       - rollup
@@ -11850,7 +11859,7 @@ snapshots:
       consola: 3.2.3
       node-fetch-native: 1.6.7
 
-  '@nuxt/schema@3.12.2(rollup@3.29.5)':
+  '@nuxt/schema@3.12.2(rollup@3.30.0)':
     dependencies:
       compatx: 0.1.8
       consola: 3.2.3
@@ -11862,13 +11871,13 @@ snapshots:
       std-env: 3.7.0
       ufo: 1.6.1
       uncrypto: 0.1.3
-      unimport: 3.7.2(rollup@3.29.5)
+      unimport: 3.7.2(rollup@3.30.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - rollup
       - supports-color
 
-  '@nuxt/schema@3.7.4(rollup@3.29.5)':
+  '@nuxt/schema@3.7.4(rollup@3.30.0)':
     dependencies:
       '@nuxt/ui-templates': 1.3.1
       consola: 3.2.3
@@ -11879,7 +11888,7 @@ snapshots:
       postcss-import-resolver: 2.0.0
       std-env: 3.7.0
       ufo: 1.6.1
-      unimport: 3.7.2(rollup@3.29.5)
+      unimport: 3.7.2(rollup@3.30.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - rollup
@@ -12155,9 +12164,9 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  '@nuxtjs/eslint-module@4.1.0(eslint@8.57.1)(rollup@3.29.5)(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)':
+  '@nuxtjs/eslint-module@4.1.0(eslint@8.57.1)(rollup@3.30.0)(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)':
     dependencies:
-      '@nuxt/kit': 3.7.4(rollup@3.29.5)
+      '@nuxt/kit': 3.7.4(rollup@3.30.0)
       chokidar: 3.5.3
       eslint: 8.57.1
       eslint-webpack-plugin: 4.0.1(eslint@8.57.1)(webpack@5.104.1)
@@ -12193,14 +12202,14 @@ snapshots:
       minimatch: 3.1.2
       sitemap: 4.1.1
 
-  '@nuxtjs/stylelint-module@5.2.0(postcss@8.5.6)(rollup@3.29.5)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)':
+  '@nuxtjs/stylelint-module@5.2.0(postcss@8.5.6)(rollup@3.30.0)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))(webpack@5.104.1)':
     dependencies:
-      '@nuxt/kit': 3.12.2(rollup@3.29.5)
+      '@nuxt/kit': 3.12.2(rollup@3.30.0)
       chokidar: 3.6.0
       pathe: 1.1.2
       stylelint: 15.11.0(typescript@4.9.5)
       stylelint-webpack-plugin: 5.0.1(stylelint@15.11.0(typescript@4.9.5))(webpack@5.104.1)
-      vite-plugin-stylelint: 5.3.1(postcss@8.5.6)(rollup@3.29.5)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))
+      vite-plugin-stylelint: 5.3.1(postcss@8.5.6)(rollup@3.30.0)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1))
     transitivePeerDependencies:
       - '@types/stylelint'
       - magicast
@@ -12272,21 +12281,21 @@ snapshots:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
-  '@rollup/pluginutils@5.0.4(rollup@3.29.5)':
+  '@rollup/pluginutils@5.0.4(rollup@3.30.0)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 3.30.0
 
-  '@rollup/pluginutils@5.1.0(rollup@3.29.5)':
+  '@rollup/pluginutils@5.1.0(rollup@3.30.0)':
     dependencies:
       '@types/estree': 1.0.8
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
-      rollup: 3.29.5
+      rollup: 3.30.0
 
   '@sinclair/typebox@0.27.8': {}
 
@@ -13474,6 +13483,11 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
+  brace-expansion@2.1.0:
+    dependencies:
+      balanced-match: 1.0.2
+    optional: true
+
   braces@2.3.2:
     dependencies:
       arr-flatten: 1.1.0
@@ -14342,9 +14356,7 @@ snapshots:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.2.0
 
-  date-fns@2.30.0:
-    dependencies:
-      '@babel/runtime': 7.24.5
+  date-fns@4.1.0: {}
 
   de-indent@1.0.2: {}
 
@@ -15196,9 +15208,9 @@ snapshots:
 
   file-uri-to-path@1.0.0: {}
 
-  filelist@1.0.4:
+  filelist@1.0.6:
     dependencies:
-      minimatch: 5.1.6
+      minimatch: 5.1.9
     optional: true
 
   fill-range@4.0.0:
@@ -16260,7 +16272,7 @@ snapshots:
   jake@10.9.4:
     dependencies:
       async: 3.2.6
-      filelist: 1.0.4
+      filelist: 1.0.6
       picocolors: 1.1.1
     optional: true
 
@@ -17178,6 +17190,11 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
+  minimatch@5.1.9:
+    dependencies:
+      brace-expansion: 2.1.0
+    optional: true
+
   minimatch@9.0.1:
     dependencies:
       brace-expansion: 2.0.1
@@ -17295,6 +17312,8 @@ snapshots:
   nano-spawn@1.0.2: {}
 
   nanoid@3.3.11: {}
+
+  nanoid@3.3.12: {}
 
   nanoid@3.3.8: {}
 
@@ -18425,6 +18444,12 @@ snapshots:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  postcss@8.5.13:
+    dependencies:
+      nanoid: 3.3.12
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
   postcss@8.5.6:
     dependencies:
       nanoid: 3.3.11
@@ -18821,7 +18846,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  rollup@3.29.5:
+  rollup@3.30.0:
     optionalDependencies:
       fsevents: 2.3.3
 
@@ -19801,9 +19826,9 @@ snapshots:
 
   unicorn-magic@0.1.0: {}
 
-  unimport@3.4.0(rollup@3.29.5):
+  unimport@3.4.0(rollup@3.30.0):
     dependencies:
-      '@rollup/pluginutils': 5.0.4(rollup@3.29.5)
+      '@rollup/pluginutils': 5.0.4(rollup@3.30.0)
       escape-string-regexp: 5.0.0
       fast-glob: 3.3.1
       local-pkg: 0.4.3
@@ -19817,9 +19842,9 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  unimport@3.7.2(rollup@3.29.5):
+  unimport@3.7.2(rollup@3.30.0):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@3.29.5)
+      '@rollup/pluginutils': 5.1.0(rollup@3.30.0)
       acorn: 8.15.0
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
@@ -20004,24 +20029,24 @@ snapshots:
       rollup: 2.79.2
       vite: 4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1)
 
-  vite-plugin-stylelint@5.3.1(postcss@8.5.6)(rollup@3.29.5)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1)):
+  vite-plugin-stylelint@5.3.1(postcss@8.5.6)(rollup@3.30.0)(stylelint@15.11.0(typescript@4.9.5))(vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1)):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@3.29.5)
+      '@rollup/pluginutils': 5.1.0(rollup@3.30.0)
       chokidar: 3.6.0
       debug: 4.4.1
       stylelint: 15.11.0(typescript@4.9.5)
       vite: 4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1)
     optionalDependencies:
       postcss: 8.5.6
-      rollup: 3.29.5
+      rollup: 3.30.0
     transitivePeerDependencies:
       - supports-color
 
   vite@4.5.3(@types/node@25.1.0)(sass@1.32.13)(terser@5.44.1):
     dependencies:
       esbuild: 0.18.20
-      postcss: 8.5.6
-      rollup: 3.29.5
+      postcss: 8.5.13
+      rollup: 3.30.0
     optionalDependencies:
       '@types/node': 25.1.0
       fsevents: 2.3.3
